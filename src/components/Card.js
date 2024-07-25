@@ -19,7 +19,7 @@ function Card() {
           </section>
           <section className="card-price">
             <div className="price">
-              <del>&#8377;1500</del> 1200
+              <del>$150</del> $100
             </div>
             <div className="bag">
               <BsFillBagHeartFill className="bag-icon" />
