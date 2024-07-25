@@ -3,6 +3,7 @@ import Navigation from "./Navigation/Nav";
 import Products from "./Products/Products";
 import Recommended from "./Recommended/Recommended";
 import Sidebar from "./Sidebar/Sidebar";
+import "./index.css";
 
 //Database
 import products from "./db/data";

@@ -36,6 +36,10 @@
     border-radius: 50%;
 }
 
+.all {
+    background: linear-gradient(blue, crimson);
+}
+
 .sidebar-label-container:hover input ~ .checkmark {
     background-color: #ccc;
 }
@@ -50,11 +54,11 @@
     display: none;
 }
 
-.sidebar-label-container input:checked ~ .checkmark::after {
+.sidebar-label-container input:checked ~ .checkmark:after {
     display: block;
 }
 
-.sidebar-label-container .checkmark::after {
+.sidebar-label-container .checkmark:after {
     top: 6.4px;
     left: 6.4px;
     width: 7px;

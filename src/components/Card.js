@@ -1,7 +1,8 @@
 import { BsFillBagHeartFill } from "react-icons/bs";
 
-function Card({ img, title, star, reviews, prevPrice, newPrice }) {
+const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
   return (
+    <>
       <section className="card">
         <img src={img} alt={title} className="card-img" />
         <div className="card-details">
@@ -20,7 +21,8 @@ function Card({ img, title, star, reviews, prevPrice, newPrice }) {
           </section>
         </div>
       </section>
+    </>
   );
-}
+};
 
 export default Card;
